@@ -1,2 +1,1 @@
-# py-dojo
-Py Dojo
+# py
