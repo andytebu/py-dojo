@@ -1,4 +1,4 @@
-from fizz_buzz import fizz_buzz, get_fizz, get_buzz, get_fizz_buzz, number_to_string
+from fizz_buzz import fizz_buzz, get_fizz, get_buzz, get_fizz_buzz
 
 
 def test_get_fizz_should_return_the_string_fizz() -> None:
@@ -11,10 +11,6 @@ def test_get_buzz_should_return_the_string_buzz() -> None:
 
 def test_get_fizz_buzz_should_return_the_string_fizzbuzz() -> None:
     assert get_fizz_buzz() == "FizzBuzz"
-
-
-def test_number_to_string_should_return_the_string_2_when_number_is_2() -> None:
-    assert number_to_string(2) == "2"
 
 
 def test_fizz_buzz_should_return_the_string_1_when_number_is_1() -> None:

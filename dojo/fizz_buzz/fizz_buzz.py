@@ -22,10 +22,6 @@ def is_divisible_by_3_and_5(number: int) -> bool:
     return is_divisible_by_3(number) and is_divisible_by_5(number)
 
 
-def number_to_string(number: int) -> str:
-    return str(number)
-
-
 def fizz_buzz(number: int) -> str:
     if is_divisible_by_3_and_5(number):
         return get_fizz_buzz()
@@ -34,7 +30,4 @@ def fizz_buzz(number: int) -> str:
     elif is_divisible_by_5(number):
         return get_buzz()
     else:
-        return number_to_string(number)
-
-
-
+        return str(number)
